@@ -31,6 +31,7 @@ echo "› iPhone settings (permissions, Files app access, portrait only)"
 p() { plutil -replace "$1" "$2" "$3" "$PLIST"; }
 p CFBundleDisplayName -string "Flyway"
 p NSLocationWhenInUseUsageDescription -string "Flyway uses your location to save hunting spots, mark blinds and downed birds on the map, and look up the weather where you're hunting."
+p NSLocationAlwaysAndWhenInUseUsageDescription -string "Flyway uses your location to save hunting spots, mark blinds and downed birds on the map, and look up local hunting weather."
 p NSCameraUsageDescription -string "Flyway uses the camera so you can photograph birds, bands and your spread for your hunt journal."
 p NSPhotoLibraryUsageDescription -string "Flyway lets you add photos from your library to a hunt, band or spot."
 p UIFileSharingEnabled -bool YES
