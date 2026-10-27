@@ -1,0 +1,27 @@
+{
+  "name": "flyway-journal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Flyway Journal: waterfowl hunting logbook (iPhone app, built with Capacitor).",
+  "scripts": {
+    "setup:ios": "bash scripts/setup-ios.sh",
+    "sync": "npx cap sync ios",
+    "open": "npx cap open ios"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "@capacitor/core": "8.5.3",
+    "@capacitor/ios": "8.5.3",
+    "@capacitor/filesystem": "^8.1.5",
+    "@capacitor/geolocation": "^8.2.4",
+    "@capacitor/haptics": "^8.0.2",
+    "@capacitor/share": "^8.0.3",
+    "@capacitor/splash-screen": "^8.0.2",
+    "@capacitor/status-bar": "^8.0.4"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "8.5.3"
+  }
+}

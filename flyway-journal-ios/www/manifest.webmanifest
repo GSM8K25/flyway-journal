@@ -1,0 +1,13 @@
+{
+  "name": "Flyway Journal",
+  "short_name": "Flyway",
+  "description": "Waterfowl hunting journal: species tally, dog retrieves, bands, weather, spots and photos.",
+  "start_url": "./", "scope": "./", "display": "standalone", "orientation": "portrait",
+  "background_color": "#12160F", "theme_color": "#12160F",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

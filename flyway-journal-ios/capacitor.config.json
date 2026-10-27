@@ -1,0 +1,21 @@
+{
+  "appId": "com.gregmifflin.flywayjournal",
+  "appName": "Flyway",
+  "webDir": "www",
+  "backgroundColor": "#12160F",
+  "ios": {
+    "contentInset": "never",
+    "backgroundColor": "#12160F",
+    "scrollEnabled": true,
+    "limitsNavigationsToAppBoundDomains": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": true,
+      "launchFadeOutDuration": 250,
+      "backgroundColor": "#12160F",
+      "showSpinner": false
+    }
+  }
+}
